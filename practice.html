@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Practice.com</title>
+<style>
+    *
+        {
+            margin:0px;
+            padding:0px;
+        }
+        .navbar
+        {
+            display:flex;
+            background-color:black;
+            color:white;
+            justify-content:space-between;
+            
+        }
+        .navbar ul 
+        {
+            display:flex;
+        padding:23px;
+            justify-items: flex-start;
+            list-style: none;
+
+        }
+        .navbar ul li
+        {
+            padding:0px 8px;
+            margin:0px 0px;
+            
+        }
+        .second
+        {
+            float:right;
+        }
+        .container
+        {
+            height:40%;
+            border:5px black;
+           
+        }
+        #Display
+        {
+            border: 5px red;
+        }
+        #Display img
+        {
+            width:100%;
+            align-content: center;
+            height:60%; 
+        }
+</style>
+</head>
+<body>
+    
+   <nav class="navbar" id="Main-part1">
+       <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>contact us</li>
+        <li>servcies<li>
+        <li>More about us</li>
+       </ul>
+       <ul class="second">
+           <li>Login</li>
+           <li>SignUp</li>
+       </ul>
+
+    </nav>
+    <div class="WebsiteContentlinks">
+        <ul>
+           <li ><a  href="www.google.com/fitness tips">Fitness tips</a></li>
+        </ul>
+    </div>
+  <div class="container">
+      <div id="Display">
+          <img src="C:\Users\pggup\Desktop\java_learning\Spotify\storage\giphy (1).gif">
+        </div>
+        <button id="forward" onclick="document.getElementById('Display').src='C:\\Users\\pggup\\Desktop\\java_learning\\Spotify\\storage\\display.jpg'">
+         click me</button> 
+  </div>
+    <script>
+           let main=document.getElementById('main');
+           console.log(main);
+        
+    </script>
+    
+</body>
+</html>
