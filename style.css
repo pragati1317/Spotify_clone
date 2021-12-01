@@ -34,6 +34,7 @@ nav{
     font-family: 'Raleway', sans-serif;
    /* position:fixed; */
    /* width:100%; */
+   background-color:black;
    display:flex;
    padding:0px;
    justify-content: space-between;
@@ -119,7 +120,7 @@ background-size:cover;
 .songInfo
 {
     position:absolute;
-    left:35vw;
+    left:0vw;
 }
 .songInfo img{
     opacity:0;
